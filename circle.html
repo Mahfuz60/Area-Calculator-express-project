@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <h1 style="text-align: center; color: rgb(8, 8, 209); font-size: 80px">
+          Circle and Triangle Calculator
+        </h1>
+        <ul style="list-style: none">
+          <li style="text-align: center; font-size: 50px">
+            <a href="/circle">Circle</a>
+          </li>
+          <li style="text-align: center; font-size: 50px">
+            <a href="/triangle">Triangle</a>
+          </li>
+        </ul>
+      </nav>
+      <main>
+        <h3 style="text-align: center; font-size: 50px">Circle Calculator</h3>
+        <form
+          style="text-align: center; font-size: 30px"
+          action="/circle"
+          method="post"
+        >
+          <div>
+            <label for="radius">Radius:</label>
+            <input type="number" name="radius" id="radius" />
+          </div>
+          <button type="submit">Calculate</button>
+        </form>
+      </main>
+    </header>
+  </body>
+</html>
